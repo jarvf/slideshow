@@ -1,0 +1,45 @@
+/* beginning scaffk,d*/
+:root {
+    --bg: #0b0d12;
+    --ink: #e9ecf1;
+    --muted: #9aa3b2;
+    --accent: #69e2ff;
+    --accent2: #ff59d6;
+    --panel: #111520;
+    --line: rgba(255, 255, 255, .08);
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial;
+    color: var(--ink);
+    background: radial-gradient(1200px 600px at 10% 0%, rgba(105, 226, 255, .08), transparent 60%),
+        radial-gradient(900px 500px at 90% 100%, rgba(255, 89, 214, .06), transparent 60%),
+        var(--bg);
+}
+
+#slideshow_container {
+    width: min(1100px, 92vw);
+    margin: 28px auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, .02), rgba(255, 255, 255, .01));
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+    min-height: 300px;
+}
+
+/* filled soon */
+.status {
+    padding: 18px;
+    color: var(--muted)
+}
